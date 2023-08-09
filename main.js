@@ -1,6 +1,6 @@
-const { runTopEarner } = require("./app.js");
+const { app } = require("./app.js");
 
-runTopEarner()
+app()
   .then(() => {
     console.log("[App exitted gracefully]");
   })
